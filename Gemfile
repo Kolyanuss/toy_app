@@ -55,3 +55,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#  Ruby code style checking and code formatting tool. It aims to enforce the community-driven Ruby Style Guide
+gem 'rubocop', '~> 1.15'
